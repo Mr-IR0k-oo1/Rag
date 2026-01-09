@@ -1,0 +1,1377 @@
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+Mathematical methods for physics and engineering
+A comprehensive guide
+The new edition of this highly acclaimed textbook contains several major additions,
+including more than four hundred new exercises (with hints and answers). To match the
+mathematical preparation of current senior college and university entrants, the authors
+have included a preliminary chapter covering areas such as polynomial equations,
+trigonometric identities, coordinate geometry, partial fractions, binomial expansions,
+induction, and the proof of necessary and sufficient conditions. Elsewhere, matrix
+decomposition, nearly singular matrices and non-square sets of linear equations are
+treated in detail. The presentation of probability has been reorganised and greatly
+extended, and includes all physically important distributions. New topics covered in a
+separate statistics chapter include estimator efficiency, distributions of samples, t- and
+F-tests for comparing means and variances, applications of the chi-squared distribution,
+and maximum-likelihood and least-squares fitting. In other chapters the following topics
+have been added: linear recurrence relations, curvature, envelopes, curve sketching, and
+more refined numerical methods.
+KEN RILEY read Mathematics at the University of Cambridge and proceeded to a Ph.D.
+there in theoretical and experimental nuclear physics. He became a Research Associate in
+elementary particle physics at Brookhaven, and then, having taken up a lectureship at the
+Cavendish Laboratory, Cambridge, continued this research at the Rutherford Laboratory
+and Stanford; in particular he was involved in the experimental discovery of a number of
+the early baryonic resonances. As well as having been Senior Tutor at Clare College,
+where he has taught physics and mathematics for nearly forty years, he has served on
+many committees concerned with the teaching and examining of these subjects at all
+levels of tertiary and undergraduate education. He is also one of the authors of 200
+Puzzling Physics Problems.
+MICHAEL HOBSON read Natural Sciences at the University of Cambridge, specialising in
+theoretical physics, and remained at the Cavendish Laboratory to complete a Ph.D. in
+the physics of star-formation. As a Research Fellow at Trinity Hall, Cambridge, and
+subsequently an Advanced Fellow of the Particle Physics and Astronomy Research
+Council, he developed an interest in cosmology, and in particular in the study of
+fluctuations in the cosmic microwave background. He was involved in the first detection
+of these fluctuations using a ground-based interferometer. He is currently a University
+Lecturer at the Cavendish Laboratory and his research interests include both theoretical
+and observational aspects of cosmology. He is also a Director of Studies in Natural
+Sciences at Trinity Hall and enjoys an active role in the teaching of undergraduate
+physics and mathematics.
+STEPHEN BENCE obtained both his undergraduate degree in Natural Sciences and his
+Ph.D. in Astrophysics from the University of Cambridge. He then became a Research
+Associate with a special interest in star-formation processes and the structure of
+star-forming regions. In particular, his research has concentrated on the physics of jets
+and outflows from young stars. He has had considerable experience of teaching
+mathematics and physics to undergraduate and pre-university students.
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+To our families
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+Mathematical methods
+for physics and engineering
+A comprehensive guide
+Second edition
+Cambridge University Press
+K. F. Riley, M. P. Hobson and S. J. Bence
+CAMBRIDGE
+UNIVERSITY PRESS
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+PUBLISHED BY THE PRESS SYNDICATE OF THE UNIVERSITY OF CAMBRIDGE
+The Pitt Building, Trumpington Street, Cambridge, United Kingdom
+CAMBRIDGE UNIVERSITY PRESS
+The Edinburgh Building, Cambridge CB2 2RU, UK
+40 West 20th Street, New York, NY 10011–4211, USA
+477 Williamstown Road, Port Melbourne, VIC 3207, Australia
+Ruiz de Alarcón 13, 28014 Madrid, Spain
+Dock House, The Waterfront, Cape Town 8001, South Africa
+http://www.cambridge.org
+First edition
+Cambridge University Press 1998
+Second edition Ken Riley, Mike Hobson, Stephen Bence 2002
+This book is in copyright. Subject to statutory exception
+and to the provisions of relevant collective licensing agreements,
+no reproduction of any part may take place without
+the written permission of Cambridge University Press.
+First published 1998
+Reprinted 1998 (with minor corrections), 2000 (twice), 2001
+Second edition published 2002
+Reprinted with corrections 2003
+Reprinted with corrections 2004
+Printed in the United Kingdom at the University Press, Cambridge
+Typeset in TEX Monotype Times [EPC]
+A catalogue record for this book is available from the British Library
+Library of Congress Cataloguing in Publication data
+Riley, K. F. (Kenneth Franklin), 1936–
+Mathematical methods for physics and engineering / Ken Riley,
+Mike Hobson, and Stephen Bence.
+p. cm.
+Includes bibliographical references and index.
+ISBN 0 521 81372 7 (HB) – ISBN 0 521 89067 5 (PB)
+1. Mathematical analysis. I. Hobson, M. P. (Michael Paul), 1967– .
+II. Bence, S. J. (Stephen John), 1972–. III. Title.
+QA300.R495 2002
+515′.1-dc21 2002018922 CIP
+ISBN 0 521 81372 7 hardback
+ISBN 0 521 89067 5 paperback
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+Contents
+Preface to the second edition
+Preface to the first edition
+1
+Preliminary algebra
+1.1
+Simple functions and equations
+xix
+xxi
+1
+1
+Polynomial equations; factorisation; properties of roots
+1.2
+Trigonometric identities
+10
+Single angle; compound-angles; double- and half-angle identities
+1.3
+Coordinate geometry
+15
+1.4
+Partial fractions
+18
+Complications and special cases
+1.5
+Binomial expansion
+25
+1.6
+Properties of binomial coefficients
+27
+1.7
+Some particular methods of proof
+30
+Proof by induction; proof by contradiction; necessary and sufficient
+conditions
+1.8
+Exercises
+36
+1.9 Hints and answers
+39
+2
+Preliminary calculus
+42
+2.1
+Differentiation
+42
+Differentiation from first principles; products; the chain rule; quotients;
+implicit differentiation; logarithmic differentiation; Leibnitz' theorem;
+special points of a function; curvature; theorems of differentiation
+Cambridge University Press
+V
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+2.2
+Integration
+60
+Integration from first principles; the inverse of differentiation; by inspection;
+sinusoidal functions; logarithmic integration; using partial fractions;
+substitution method; integration by parts; reduction formulae; infinite
+and improper integrals; plane polar coordinates; integral inequalities;
+applications of integration
+2.3
+Exercises
+2.4
+Hints and answers
+77
+82
+3
+Complex numbers and hyperbolic functions
+86
+3.1
+The need for complex numbers
+86
+3.2
+Manipulation of complex numbers
+88
+Addition and subtraction; modulus and argument; multiplication; complex
+conjugate; division
+3.3
+Polar representation of complex numbers
+95
+Multiplication and division in polar form
+3.4
+de Moivre's theorem
+98
+trigonometric identities; finding the nth roots of unity; solving polynomial
+equations
+3.5
+3.6
+Complex logarithms and complex powers
+Applications to differentiation and integration
+102
+104
+3.7
+Hyperbolic functions
+105
+Definitions; hyperbolic-trigonometric analogies; identities of hyperbolic
+functions; solving hyperbolic equations; inverses of hyperbolic functions;
+calculus of hyperbolic functions
+3.8
+Exercises
+112
+3.9
+Hints and answers
+116
+4
+Series and limits
+118
+4.1
+Series
+118
+4.2
+Summation of series
+119
+Arithmetic series; geometric series; arithmetico-geometric series; the
+difference method; series involving natural numbers; transformation of series
+4.3
+Convergence of infinite series
+127
+Absolute and conditional convergence; series containing only real positive
+terms; alternating series test
+4.4
+Operations with series
+134
+4.5
+Power series
+134
+Convergence of power series; operations with power series
+4.6
+Taylor series
+139
+Taylor's theorem; approximation errors; standard Maclaurin series
+4.7
+Evaluation of limits
+144
+Cambridge University Press
+vi
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+4.8
+Exercises
+147
+4.9 Hints and answers
+152
+5
+Partial differentiation
+154
+5.1
+Definition of the partial derivative
+154
+5.2
+The total differential and total derivative
+156
+5.3
+Exact and inexact differentials
+158
+5.4
+Useful theorems of partial differentiation
+160
+5.5
+The chain rule
+160
+5.6
+Change of variables
+161
+5.7
+Taylor's theorem for many-variable functions
+163
+5.8
+Stationary values of many-variable functions
+165
+5.9 Stationary values under constraints
+170
+5.10 Envelopes
+176
+5.11 Thermodynamic relations
+179
+5.12 Differentiation of integrals
+181
+5.13
+Exercises
+182
+5.14 Hints and answers
+188
+6
+Multiple integrals
+190
+6.1
+Double integrals
+190
+6.2
+Triple integrals
+193
+6.3
+Applications of multiple integrals
+194
+Areas and volumes; masses, centres of mass and centroids; Pappus'
+theorems; moments of inertia; mean values of functions
+6.4
+Change of variables in multiple integrals
+202
+Change of variables in double integrals; evaluation of the integral I
+=
+=
+fe-x² dx; change of variables in triple integrals; general properties of
+-00
+Jacobians
+6.5
+Exercises
+210
+6.6
+Hints and answers
+214
+7
+Vector algebra
+216
+7.1 Scalars and vectors
+216
+7.2
+Addition and subtraction of vectors
+217
+7.3
+Multiplication by a scalar
+218
+7.4
+Basis vectors and components
+221
+7.5
+Magnitude of a vector
+222
+7.6
+Multiplication of vectors
+223
+Scalar product; vector product; scalar triple product; vector triple product
+vii
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+7.7
+Equations of lines, planes and spheres
+230
+7.8
+Using vectors to find distances
+233
+Point to line; point to plane; line to line; line to plane
+7.9
+Reciprocal vectors
+237
+7.10
+Exercises
+238
+7.11
+Hints and answers
+244
+8
+Matrices and vector spaces
+8.1
+Vector spaces
+246
+247
+Basis vectors; inner product; some useful inequalities
+8.2
+Linear operators
+252
+8.3
+Matrices
+254
+8.4
+Basic matrix algebra
+255
+Matrix addition; multiplication by a scalar; matrix multiplication
+8.5
+Functions of matrices
+260
+8.6
+The transpose of a matrix
+260
+8.7
+The complex and Hermitian conjugates of a matrix
+261
+8.8
+The trace of a matrix
+263
+8.9 The determinant of a matrix
+264
+Properties of determinants
+8.10 The inverse of a matrix
+268
+8.11 The rank of a matrix
+272
+8.12 Special types of square matrix
+273
+Diagonal; triangular; symmetric and antisymmetric; orthogonal; Hermitian
+and anti-Hermitian; unitary; normal
+8.13 Eigenvectors and eigenvalues
+277
+Of a normal matrix; of Hermitian and anti-Hermitian matrices; of a unitary
+matrix; of a general square matrix
+8.14 Determination of eigenvalues and eigenvectors
+285
+Degenerate eigenvalues
+8.15 Change of basis and similarity transformations
+288
+8.16 Diagonalisation of matrices
+290
+8.17 Quadratic and Hermitian forms
+293
+Stationary properties of the eigenvectors; quadratic surfaces
+8.18 Simultaneous linear equations
+297
+Range; null space; N simultaneous linear equations in N unknowns;
+singular value decomposition
+8.19
+Exercises
+312
+8.20 Hints and answers
+319
+9
+Normal modes
+322
+9.1
+Typical oscillatory systems
+323
+viii
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+9.2
+Symmetry and normal modes
+9.3
+Rayleigh-Ritz method
+9.4
+Exercises
+9.5
+Hints and answers
+328
+333
+335
+338
+10
+Vector calculus
+340
+10.1
+Differentiation of vectors
+340
+Composite vector expressions; differential of a vector
+10.2 Integration of vectors
+345
+10.3 Space curves
+346
+10.4 Vector functions of several arguments
+350
+10.5 Surfaces
+351
+10.6 Scalar and vector fields
+353
+10.7 Vector operators
+353
+Gradient of a scalar field; divergence of a vector field; curl of a vector field
+10.8 Vector operator formulae
+360
+Vector operators acting on sums and products; combinations of grad, div
+and curl
+10.9 Cylindrical and spherical polar coordinates
+363
+10.10 General curvilinear coordinates
+370
+10.11 Exercises
+375
+10.12 Hints and answers
+381
+11 Line, surface and volume integrals
+11.1 Line integrals
+383
+383
+Evaluating line integrals; physical examples; line integrals with respect to
+a scalar
+11.2 Connectivity of regions
+389
+11.3 Green's theorem in a plane
+390
+11.4 Conservative fields and potentials
+393
+11.5 Surface integrals
+395
+Evaluating surface integrals; vector areas of surfaces; physical examples
+11.6 Volume integrals
+402
+Volumes of three-dimensional regions
+11.7 Integral forms for grad, div and curl
+404
+11.8 Divergence theorem and related theorems
+407
+Green's theorems; other related integral theorems; physical applications
+11.9 Stokes' theorem and related theorems
+412
+Related integral theorems; physical applications
+11.10 Exercises
+415
+11.11 Hints and answers
+420
+Cambridge University Press
+ix
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+12
+Fourier series
+12.1 The Dirichlet conditions
+12.2 The Fourier coefficients
+421
+421
+423
+12.3
+Symmetry considerations
+425
+12.4
+Discontinuous functions
+426
+12.5 Non-periodic functions
+428
+12.6 Integration and differentiation
+430
+12.7 Complex Fourier series
+430
+12.8 Parseval's theorem
+432
+12.9
+Exercises
+433
+12.10 Hints and answers
+437
+13
+Integral transforms
+439
+13.1
+Fourier transforms
+439
+The uncertainty principle; Fraunhofer diffraction; the Dirac 8-function;
+relation of the d-function to Fourier transforms; properties of Fourier
+transforms; odd and even functions; convolution and deconvolution;
+correlation functions and energy spectra; Parseval's theorem; Fourier
+transforms in higher dimensions
+13.2 Laplace transforms
+459
+Laplace transforms of derivatives and integrals; other properties of Laplace
+transforms
+13.3 Concluding remarks
+465
+13.4
+Exercises
+466
+13.5 Hints and answers
+472
+14
+First-order ordinary differential equations
+474
+14.1
+General form of solution
+475
+14.2
+First-degree first-order equations
+476
+Separable-variable equations; exact equations; inexact equations, integrating
+factors; linear equations; homogeneous equations; isobaric equations;
+Bernoulli's equation; miscellaneous equations
+14.3 Higher-degree first-order equations
+486
+14.4
+Equations soluble for p; for x; for y; Clairaut's equation
+Exercises
+14.5 Hints and answers
+490
+494
+15
+Higher-order ordinary differential equations
+496
+498
+15.1 Linear equations with constant coefficients
+Finding the complementary function y(x); finding the particular integral
+yp(x); constructing the general solution yc(x) + yp(x); linear recurrence
+relations; Laplace transform method
+Cambridge University Press
+X
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+15.2 Linear equations with variable coefficients
+The Legendre and Euler linear equations; exact equations; partially
+known complementary function; variation of parameters; Green's functions;
+canonical form for second-order equations
+15.3 General ordinary differential equations
+15.4
+Dependent variable absent; independent variable absent; non-linear exact
+equations; isobaric or homogeneous equations; equations homogeneous in x
+or y alone; equations having y = Aex as a solution
+Exercises
+15.5 Hints and answers
+509
+524
+529
+535
+16
+Series solutions of ordinary differential equations
+537
+16.1 Second-order linear ordinary differential equations
+537
+Ordinary and singular points
+16.2 Series solutions about an ordinary point
+541
+16.3 Series solutions about a regular singular point
+544
+Distinct roots not differing by an integer; repeated root of the indicial
+equation; distinct roots differing by an integer
+16.4 Obtaining a second solution
+549
+The Wronskian method; the derivative method; series form of the second
+solution
+16.5 Polynomial solutions
+16.6 Legendre's equation
+554
+555
+General solution for integer l; properties of Legendre polynomials
+16.7 Bessel's equation
+564
+General solution for non-integer v; general solution for integer v; properties
+of Bessel functions
+16.8
+General remarks
+16.9 Exercises
+16.10 Hints and answers
+575
+575
+579
+17
+Eigenfunction methods for differential equations
+581
+17.1 Sets of functions
+583
+Some useful inequalities
+17.2 Adjoint and Hermitian operators
+Cambridge University Press
+xi
+587
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+17.3 The properties of Hermitian operators
+Reality of the eigenvalues; orthogonality of the eigenfunctions; construction
+of real eigenfunctions
+17.4 Sturm-Liouville equations
+Valid boundary conditions; putting an equation into Sturm-Liouville form
+17.5 Examples of Sturm-Liouville equations
+Legendre's equation; the associated Legendre equation; Bessel's equation;
+the simple harmonic equation; Hermite's equation; Laguerre's equation;
+Chebyshev's equation
+17.6 Superposition of eigenfunctions: Green's functions
+17.7 A useful generalisation
+Exercises
+588
+591
+593
+17.8
+17.9
+Hints and answers
+597
+601
+602
+606
+18
+18.1
+Partial differential equations: general and particular solutions
+Important partial differential equations
+608
+609
+The wave equation; the diffusion equation; Laplace's equation; Poisson's
+equation; Schrödinger's equation
+18.2 General form of solution
+613
+18.3 General and particular solutions
+614
+First-order equations; inhomogeneous equations and problems; second-order
+equations
+18.4 The wave equation
+626
+18.5 The diffusion equation
+628
+18.6
+Characteristics and the existence of solutions
+632
+First-order equations; second-order equations
+18.7 Uniqueness of solutions
+638
+18.8
+Exercises
+640
+18.9
+Hints and answers
+644
+19
+Partial differential equations: separation of variables
+and other methods
+646
+19.1
+Separation of variables: the general method
+646
+19.2 Superposition of separated solutions
+650
+19.3 Separation of variables in polar coordinates
+658
+Laplace's equation in polar coordinates; spherical harmonics; other
+equations in polar coordinates; solution by expansion; separation of
+variables for inhomogeneous equations
+19.4 Integral transform methods
+681
+19.5 Inhomogeneous problems – Green's functions
+686
+Similarities to Green's functions for ordinary differential equations; general
+boundary-value problems; Dirichlet problems; Neumann problems
+Cambridge University Press
+xii
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+19.6
+Exercises
+19.7
+Hints and answers
+20
+Complex variables
+20.1
+702
+708
+710
+20.5
+Functions of a complex variable
+20.2 The Cauchy-Riemann relations
+20.3 Power series in a complex variable
+20.4 Some elementary functions
+Multivalued functions and branch cuts
+20.6 Singularities and zeroes of complex functions
+20.7 Complex potentials
+20.8 Conformal transformations
+20.9 Applications of conformal transformations
+711
+713
+716
+718
+721
+723
+725
+730
+735
+20.10 Complex integrals
+738
+20.11 Cauchy's theorem
+742
+20.12 Cauchy's integral formula
+745
+20.13 Taylor and Laurent series
+747
+20.14 Residue theorem
+752
+20.15 Location of zeroes
+754
+20.16 Integrals of sinusoidal functions
+758
+20.17 Some infinite integrals
+759
+20.18 Integrals of multivalued functions
+762
+20.19 Summation of series
+764
+20.20 Inverse Laplace transform
+765
+20.21 Exercises
+768
+20.22 Hints and answers
+773
+21
+Tensors
+776
+21.1 Some notation
+777
+21.2 Change of basis
+778
+21.3
+Cartesian tensors
+779
+21.4 First- and zero-order Cartesian tensors
+781
+21.5 Second- and higher-order Cartesian tensors
+784
+21.6 The algebra of tensors
+787
+21.7 The quotient law
+788
+21.8 The tensors dij and Eijk
+790
+21.9
+Isotropic tensors
+793
+21.10 Improper rotations and pseudotensors
+795
+21.11 Dual tensors
+798
+21.12 Physical applications of tensors
+799
+21.13 Integral theorems for tensors
+803
+21.14 Non-Cartesian coordinates
+804
+xiii
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+21.15 The metric tensor
+806
+21.16 General coordinate transformations and tensors
+809
+21.17 Relative tensors
+812
+21.18 Derivatives of basis vectors and Christoffel symbols
+814
+21.19 Covariant differentiation
+817
+21.20 Vector operators in tensor form
+820
+21.21 Absolute derivatives along curves
+824
+21.22 Geodesics
+825
+21.23 Exercises
+826
+21.24 Hints and answers
+831
+22
+Calculus of variations
+834
+22.1 The Euler-Lagrange equation
+835
+22.2 Special cases
+836
+F does not contain y explicitly; F does not contain x explicitly
+22.3 Some extensions
+840
+Several dependent variables; several independent variables; higher-order
+derivatives; variable end-points
+22.4
+Constrained variation
+844
+22.5 Physical variational principles
+846
+Fermat's principle in optics; Hamilton's principle in mechanics
+22.6 General eigenvalue problems
+849
+22.7
+Estimation of eigenvalues and eigenfunctions
+851
+22.8 Adjustment of parameters
+854
+22.9
+Exercises
+856
+22.10 Hints and answers
+860
+23 Integral equations
+23.1 Obtaining an integral equation from a differential equation
+23.2 Types of integral equation
+23.3
+Operator notation and the existence of solutions
+23.4
+Closed-form solutions
+Separable kernels; integral transform methods; differentiation
+862
+862
+863
+864
+865
+23.5 Neumann series
+23.6 Fredholm theory
+23.7
+Schmidt-Hilbert theory
+23.8
+Exercises
+23.9 Hints and answers
+872
+874
+875
+878
+882
+24
+Group theory
+883
+24.1 Groups
+883
+Definition of a group; examples of groups
+xiv
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+24.2 Finite groups
+891
+24.3 Non-Abelian groups
+894
+24.4 Permutation groups
+898
+24.5 Mappings between groups
+901
+24.6 Subgroups
+903
+24.7 Subdividing a group
+905
+Equivalence relations and classes; congruence and cosets; conjugates and
+classes
+24.8
+Exercises
+912
+24.9 Hints and answers
+915
+25
+Representation theory
+918
+25.1 Dipole moments of molecules
+919
+25.2 Choosing an appropriate formalism
+920
+25.3 Equivalent representations
+926
+25.4 Reducibility of a representation
+928
+25.5 The orthogonality theorem for irreducible representations
+932
+25.6
+Characters
+934
+Orthogonality property of characters
+25.7 Counting irreps using characters
+Summation rules for irreps
+25.8
+Construction of a character table
+25.9 Group nomenclature
+25.10 Product representations
+25.11 Physical applications of group theory
+Bonding in molecules; matrix elements in quantum mechanics; degeneracy
+of normal modes; breaking of degeneracies
+937
+942
+944
+945
+947
+25.12 Exercises
+25.13 Hints and answers
+955
+959
+26
+Probability
+961
+26.1 Venn diagrams
+961
+26.2 Probability
+966
+26.3
+Axioms and theorems; conditional probability; Bayes' theorem
+Permutations and combinations
+975
+26.4 Random variables and distributions
+981
+Discrete random variables; continuous random variables
+26.5 Properties of distributions
+985
+Mean; mode and median; variance and standard deviation; moments;
+central moments
+26.6 Functions of random variables
+992
+Cambridge University Press
+XV
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+26.7 Generating functions
+999
+Probability generating functions; moment generating functions; characteris-
+tic functions; cumulant generating functions
+26.8 Important discrete distributions
+1009
+Binomial; geometric; negative binomial; hypergeometric; Poisson
+26.9 Important continuous distributions
+1021
+Gaussian; log-normal; exponential; gamma; chi-squared; Cauchy; Breit-
+Wigner; uniform
+26.10 The central limit theorem
+1036
+26.11 Joint distributions
+1038
+Discrete bivariate; continuous bivariate; marginal and conditional distribu-
+tions
+26.12 Properties of joint distributions
+1041
+Means; variances; covariance and correlation
+26.13 Generating functions for joint distributions
+1047
+26.14 Transformation of variables in joint distributions
+26.15 Important joint distributions
+1048
+1049
+Multinominal; multivariate Gaussian
+26.16 Exercises
+1053
+26.17 Hints and answers
+1061
+27 Statistics
+1064
+27.1 Experiments, samples and populations
+1064
+27.2 Sample statistics
+1065
+Averages; variance and standard deviation; moments; covariance and
+correlation
+27.3 Estimators and sampling distributions
+1072
+Consistency, bias and efficiency; Fisher's inequality; standard errors;
+confidence limits
+27.4 Some basic estimators
+1086
+Mean; variance; standard deviation; moments; covariance and correlation
+27.5 Maximum-likelihood method
+1097
+ML estimator; transformation invariance and bias; efficiency; errors and
+confidence limits; Bayesian interpretation; large-N behaviour; extended
+ML method
+27.6 The method of least squares
+Linear least squares; non-linear least squares
+1113
+1119
+27.7 Hypothesis testing
+27.8
+Simple and composite hypotheses; statistical tests; Neyman-Pearson;
+generalised likelihood-ratio; Student's t; Fisher's F; goodness of fit
+Exercises
+27.9 Hints and answers
+Cambridge University Press
+xvi
+1140
+1145
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+CONTENTS
+28
+Numerical methods
+28.1 Algebraic and transcendental equations
+Rearrangement of the equation; linear interpolation; binary chopping;
+1148
+1149
+Newton-Raphson method
+28.2 Convergence of iteration schemes
+1156
+28.3 Simultaneous linear equations
+1158
+Gaussian elimination; Gauss-Seidel iteration; tridiagonal matrices
+28.4 Numerical integration
+1164
+Trapezium rule; Simpson's rule; Gaussian integration; Monte Carlo methods
+28.5 Finite differences
+1179
+28.6 Differential equations
+1180
+Difference equations; Taylor series solutions; prediction and correction;
+Runge-Kutta methods; isoclines
+2.8.7 Higher-order equations
+1188
+28.8 Partial differential equations
+1190
+28.9
+Exercises
+1193
+28.10 Hints and answers
+1198
+Appendix Gamma, beta and error functions
+1201
+A1.1 The gamma function
+1201
+A1.2 The beta function
+1203
+A1.3 The error function
+1204
+Index
+1206
+Cambridge University Press
+xvii
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+Preface to the second edition
+Since the publication of the first edition of this book, both through teaching the
+material it covers and as a result of receiving helpful comments from colleagues,
+we have become aware of the desirability of changes in a number of areas.
+The most important of these is that the mathematical preparation of current
+senior college and university entrants is now less thorough than it used to be.
+To match this, we decided to include a preliminary chapter covering areas such
+as polynomial equations, trigonometric identities, coordinate geometry, partial
+fractions, binomial expansions, necessary and sufficient condition and proof by
+induction and contradiction.
+Whilst the general level of what is included in this second edition has not
+been raised, some areas have been expanded to take in topics we now feel were
+not adequately covered in the first. In particular, increased attention has been
+given to non-square sets of simultaneous linear equations and their associated
+matrices. We hope that this more extended treatment, together with the inclusion
+of singular value matrix decomposition, will make the material of more practical
+use to engineering students. In the same spirit, an elementary treatment of linear
+recurrence relations has been included. The topic of normal modes has been given
+a small chapter of its own, though the links to matrices on the one hand, and to
+representation theory on the other, have not been lost.
+Elsewhere, the presentation of probability and statistics has been reorganised to
+give the two aspects more nearly equal weights. The early part of the probability
+chapter has been rewritten in order to present a more coherent development
+based on Boolean algebra, the fundamental axioms of probability theory and
+the properties of intersections and unions. Whilst this is somewhat more formal
+than previously, we think that it has not reduced the accessibility of these topics
+and hope that it has increased it. The scope of the chapter has been somewhat
+extended to include all physically important distributions and an introduction to
+cumulants.
+Cambridge University Press
+xix
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M.P. Hobson and S.J. Bence
+Frontmatter
+More information
+PREFACE TO THE SECOND EDITION
+Statistics now occupies a substantial chapter of its own, one that includes sys-
+tematic discussions of estimators and their efficiency, sample distributions and t-
+and F-tests for comparing means and variances. Other new topics are applications
+of the chi-squared distribution, maximum-likelihood parameter estimation and
+least-squares fitting. In other chapters we have added material on the following
+topics: curvature, envelopes, curve-sketching, more refined numerical methods
+for differential equations and the elements of integration using Monte Carlo
+techniques.
+Over the last four years we have received somewhat mixed feedback about
+the number of exercises at the ends of the various chapters. After consideration,
+we decided to increase the number substantially, partly to correspond to the
+additional topics covered in the text but mainly to give both students and
+their teachers a wider choice. There are now nearly 800 such exercises, many with
+several parts. An even more vexed question has been whether to provide hints and
+answers to all the exercises or just to 'the odd-numbered' ones, as is the normal
+practice for textbooks in the United States, thus making the remainder more
+suitable for setting as homework. In the end, we decided that hints and outline
+solutions should be provided for all the exercises, in order to facilitate independent
+study while leaving the details of the calculation as a task for the student.
+In conclusion, we hope that this edition will be thought by its users to be
+'heading in the right direction' and would like to place on record our thanks to
+all who have helped to bring about the changes and adjustments. Naturally, those
+colleagues who have noted errors or ambiguities in the first edition and brought
+them to our attention figure high on the list, as do the staff at The Cambridge
+University Press. In particular, we are grateful to Dave Green for continued LATEX
+advice, Susan Parkinson for copy-editing the second edition with her usual keen
+eye for detail and flair for crafting coherent prose and Alison Woollatt for once
+again turning our basic LATEX into a beautifully typeset book. Our thanks go
+to all of them, though of course we accept full responsibility for any remaining
+errors or ambiguities, of which, as with any new publication, there are bound to
+be some.
+On a more personal note, KFR again wishes to thank his wife Penny for her
+unwavering support, not only in his academic and tutorial work, but also in their
+joint efforts to convert time at the bridge table into 'green points' on their record.
+MPH is once more indebted to his wife, Becky, and his mother, Pat, for their
+tireless support and encouragement above and beyond the call of duty. MPH
+dedicates his contribution to this book to the memory of his father, Ronald
+Leonard Hobson, whose gentle kindness, patient understanding and unbreakable
+spirit made all things seem possible.
+Ken Riley, Michael Hobson
+Cambridge, 2002
+Cambridge University Press
+XX
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+Preface to the first edition
+A knowledge of mathematical methods is important for an increasing number of
+university and college courses, particularly in physics, engineering and chemistry,
+but also in more general science. Students embarking on such courses come from
+diverse mathematical backgrounds, and their core knowledge varies considerably.
+We have therefore decided to write a textbook that assumes knowledge only of
+material that can be expected to be familiar to all the current generation of
+students starting physical science courses at university. In the United Kingdom
+this corresponds to the standard of Mathematics A-level, whereas in the United
+States the material assumed is that which would normally be covered at junior
+college.
+Starting from this level, the first six chapters cover a collection of topics
+with which the reader may already be familiar, but which are here extended
+and applied to typical problems encountered by first-year university students.
+They are aimed at providing a common base of general techniques used in
+the development of the remaining chapters. Students who have had additional
+preparation, such as Further Mathematics at A-level, will find much of this
+material straightforward.
+Following these opening chapters, the remainder of the book is intended to
+cover at least that mathematical material which an undergraduate in the physical
+sciences might encounter up to the end of his or her course. The book is also
+appropriate for those beginning graduate study with a mathematical content, and
+naturally much of the material forms parts of courses for mathematics students.
+Furthermore, the text should provide a useful reference for research workers.
+The general aim of the book is to present a topic in three stages. The first
+stage is a qualitative introduction, wherever possible from a physical point of
+view. The second is a more formal presentation, although we have deliberately
+avoided strictly mathematical questions such as the existence of limits, uniform
+convergence, the interchanging of integration and summation orders, etc. on the
+xxi
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M. P. Hobson and S. J. Bence
+Frontmatter
+More information
+PREFACE TO THE FIRST EDITION
+grounds that 'this is the real world; it must behave reasonably'. Finally a worked
+example is presented, often drawn from familiar situations in physical science
+and engineering. These examples have generally been fully worked, since, in
+the authors' experience, partially worked examples are unpopular with students.
+Only in a few cases, where trivial algebraic manipulation is involved, or where
+repetition of the main text would result, has an example been left as an exercise
+for the reader. Nevertheless, a number of exercises also appear at the end of each
+chapter, and these should give the reader ample opportunity to test his or her
+understanding. Hints and answers to these exercises are also provided.
+With regard to the presentation of the mathematics, it has to be accepted that
+many equations (especially partial differential equations) can be written more
+compactly by using subscripts, e.g. uxy for a second partial derivative, instead of
+the more familiar d2u/dxdy, and that this certainly saves typographical space.
+However, for many students, the labour of mentally unpacking such equations
+is sufficiently great that it is not possible to think of an equation's physical
+interpretation at the same time. Consequently, wherever possible we have decided
+to write out such expressions in their more obvious but longer form.
+During the writing of this book we have received much help and encouragement
+from various colleagues at the Cavendish Laboratory, Clare College, Trinity Hall
+and Peterhouse. In particular, we would like to thank Peter Scheuer, whose
+comments and general enthusiasm proved invaluable in the early stages. For
+reading sections of the manuscript, for pointing out misprints and for numerous
+useful comments, we thank many of our students and colleagues at the University
+of Cambridge. We are especially grateful to Chris Doran, John Huber, Garth
+Leder, Tom Körner and, not least, Mike Stobbs, who, sadly, died before the book
+was completed. We also extend our thanks to the University of Cambridge and
+the Cavendish teaching staff, whose examination questions and lecture hand-outs
+have collectively provided the basis for some of the examples included. Of course,
+any errors and ambiguities remaining are entirely the responsibility of the authors,
+and we would be most grateful to have them brought to our attention.
+We are indebted to Dave Green for a great deal of advice concerning typesetting
+in LATEX and to Andrew Lovatt for various other computing tips. Our thanks
+also go to Anja Visser and Graça Rocha for enduring many hours of (sometimes
+heated) debate. At Cambridge University Press, we are very grateful to our editor
+Adam Black for his help and patience and to Alison Woollatt for her expert
+typesetting of such a complicated text. We also thank our copy-editor Susan
+Parkinson for many useful suggestions that have undoubtedly improved the style
+of the book.
+Finally, on a personal note, KFR wishes to thank his wife Penny, not only for
+a long and happy marriage, but also for her support and understanding during
+his recent illness – and when things have not gone too well at the bridge table!
+MPH is indebted both to Rebecca Morris and to his parents for their tireless
+xxii
+Cambridge University Press
+www.cambridge.org
+CAMBRIDGE
+Cambridge University Press
+0521813727 - Mathematical Methods for Physics and Engineering: A Comprehensive Guide, Second Edition
+K. F. Riley, M.P. Hobson and S.J. Bence
+Frontmatter
+More information
+PREFACE TO THE FIRST EDITION
+support and patience, and for their unending supplies of tea. SJB is grateful to
+Anthony Gritten for numerous relaxing discussions about J. S. Bach, to Susannah
+Ticciati for her patience and understanding, and to Kate Isaak for her calming
+late-night e-mails from the USA.
+Ken Riley, Michael Hobson and Stephen Bence
+Cambridge, 1997
+Cambridge University Press
+xxiii
+www.cambridge.org

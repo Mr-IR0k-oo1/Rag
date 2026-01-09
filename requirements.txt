@@ -1,0 +1,6 @@
+trl
+transformers
+torch
+accelerate
+chromadb
+pypdf
